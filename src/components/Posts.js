@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getPosts, deletePost, updatePost } from "../services/postService";
+import { getPosts, deletePost } from "../services/postService";
 import PostForm from "./PostForm";
 
 export default function Posts() {
